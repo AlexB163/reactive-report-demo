@@ -1,0 +1,36 @@
+apply plugin: 'application'
+apply plugin: 'scala'
+
+mainClassName = 'ru.influunt.ReactiveReportDemo'
+applicationDefaultJvmArgs = ["-Duser.language=ru", "-Duser.region=RU", "-Xms25m", "-Xmx256m"]
+
+sourceCompatibility = 11
+
+group 'ru.influunt'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven {
+        url = "http://jaspersoft.artifactoryonline.com/jaspersoft/third-party-ce-artifacts/"
+    }
+}
+
+
+ext {
+    scalaBinaryVersion = "2.13"
+    scalaMinorVersion = "0"
+    akkaVersion = "2.5.26"
+    akkaHttpVersion = "10.1.11"
+}
+
+
+dependencies {
+    compile("org.scala-lang:scala-library:${rootProject.scalaBinaryVersion}.${rootProject.scalaMinorVersion}")
+    compile("com.typesafe.akka:akka-stream_${rootProject.scalaBinaryVersion}:${rootProject.akkaVersion}")
+    compile(group: 'net.sf.jasperreports', name: 'jasperreports', version: '6.1.0')
+}
+
+
+distTar.enabled = false
+distZip.enabled = false

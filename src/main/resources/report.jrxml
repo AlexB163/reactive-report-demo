@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.12.2.final using JasperReports Library version 6.12.2-75c5e90a222ab406e416cbf590a5397028a52de3  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="54556487-d3e3-426f-aa64-f3d621e0feb1">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="year" class="java.lang.String"/>
+	<field name="industry_code_ANZSIC" class="java.lang.String"/>
+	<field name="industry_name_ANZSIC" class="java.lang.String"/>
+	<field name="rme_size_grp" class="java.lang.String"/>
+	<field name="variable" class="java.lang.String"/>
+	<field name="value" class="java.lang.String"/>
+	<field name="unit" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="30" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="30" uuid="933c98a2-7e9b-4049-8fb5-35fb30b7a288"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif"/>
+				</textElement>
+				<text><![CDATA[annual-enterprise-survey-2018-financial-year-provisional-size-bands-csv]]></text>
+			</staticText>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="20" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="30" height="20" uuid="27fc47d1-d834-4077-b419-b8ad1f3543a2">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a38c310b-0f7a-4c30-8d11-a85d89bae127"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="8"/>
+				</textElement>
+				<text><![CDATA[year]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="0" width="30" height="20" uuid="d69b1db6-314e-4fb5-a888-69b9a453437f">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="28cbc8b4-17e1-4ca9-b884-a9c6b1346d94"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="8"/>
+				</textElement>
+				<text><![CDATA[industry_code_ANZSIC]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="60" y="0" width="243" height="20" uuid="2da583f0-3ffa-4541-ad21-f2f05c152175">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e3e92c63-fc9a-4410-9e93-1835466d812e"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="8"/>
+				</textElement>
+				<text><![CDATA[industry_name_ANZSIC]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="303" y="0" width="50" height="20" uuid="27a1e1e5-b5f8-4b01-adcf-b21fe26d4adb">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="50e42907-d126-4941-ba04-11ef5c204243"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="8"/>
+				</textElement>
+				<text><![CDATA[rme_size_grp]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="353" y="0" width="87" height="20" uuid="8b1b2bbc-833c-4a41-87da-de261d51156c">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="af4e06be-dd23-4a7b-99cb-7680b94e119c"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="8"/>
+				</textElement>
+				<text><![CDATA[variable]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="440" y="0" width="63" height="20" uuid="f5ff624b-3cda-4cc4-a3bf-bad023f8df96">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="30000f54-86d0-4cff-beca-8851c56fda3c"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="8"/>
+				</textElement>
+				<text><![CDATA[value]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="503" y="0" width="52" height="20" uuid="ac194607-67c0-40af-bd73-c9f6e336f3a9">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="1e10e3c9-3e12-42f0-8c12-cadbf1294a51"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="8"/>
+				</textElement>
+				<text><![CDATA[unit]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20" splitType="Stretch">
+			<textField textAdjust="StretchHeight">
+				<reportElement stretchType="RelativeToBandHeight" x="0" y="0" width="30" height="20" uuid="0afb1672-44a5-4546-8189-d730cb7f2fe8">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a38c310b-0f7a-4c30-8d11-a85d89bae127"/>
+				</reportElement>
+				<box leftPadding="3" bottomPadding="3">
+					<pen lineWidth="0.25"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{year}]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement stretchType="RelativeToBandHeight" x="30" y="0" width="30" height="20" uuid="724c7ed0-5f2f-4547-b5b2-d68dcd19750e">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="28cbc8b4-17e1-4ca9-b884-a9c6b1346d94"/>
+				</reportElement>
+				<box leftPadding="3" bottomPadding="3">
+					<pen lineWidth="0.25"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{industry_code_ANZSIC}]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement stretchType="RelativeToBandHeight" x="60" y="0" width="243" height="20" uuid="9f4a4da8-5915-48ae-a7a2-f54f8eb5e133">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e3e92c63-fc9a-4410-9e93-1835466d812e"/>
+				</reportElement>
+				<box leftPadding="3" bottomPadding="3">
+					<pen lineWidth="0.25"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{industry_name_ANZSIC}]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement stretchType="RelativeToBandHeight" x="303" y="0" width="50" height="20" uuid="56e27aca-e4e6-4a51-bed6-320ed72c6287">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="50e42907-d126-4941-ba04-11ef5c204243"/>
+				</reportElement>
+				<box leftPadding="3" bottomPadding="3">
+					<pen lineWidth="0.25"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{rme_size_grp}]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement stretchType="RelativeToBandHeight" x="353" y="0" width="87" height="20" uuid="7b393525-43ca-41a7-8ac2-e460f834c599">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="af4e06be-dd23-4a7b-99cb-7680b94e119c"/>
+				</reportElement>
+				<box leftPadding="3" bottomPadding="3">
+					<pen lineWidth="0.25"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{variable}]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement stretchType="RelativeToBandHeight" x="440" y="0" width="63" height="20" uuid="1ded0af0-7d97-43bb-bbf4-992c5f6ce1ab">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="30000f54-86d0-4cff-beca-8851c56fda3c"/>
+				</reportElement>
+				<box bottomPadding="3" rightPadding="3">
+					<pen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Serif" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{value}]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement stretchType="RelativeToBandHeight" x="503" y="0" width="52" height="20" uuid="5d3380c7-dd4a-4b3e-a051-4b90ed75a13d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="1e10e3c9-3e12-42f0-8c12-cadbf1294a51"/>
+				</reportElement>
+				<box leftPadding="3" bottomPadding="3">
+					<pen lineWidth="0.25"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unit}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
